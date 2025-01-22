@@ -41,58 +41,46 @@ a {
 .nav-3 {
     display: flex;
 }
-
 .nav-1 {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
 }
-
 .nav-2 {
     gap: 32px;
     font-size: 1.25rem;
 }
-
 #about {
     color: #01ACFD;
     font-weight: 500;
 }
-
 #facilities {
     color: rgba(5, 212, 223, 1);
     font-weight: 500;
 }
-
 #admission {
     color: rgba(93, 88, 239, 1);
     font-weight: 500;
 }
-
 .hover-btn:hover {
     background-color: #01ACFD;
 }
-
 .hover-btn2:hover {
     color: black
 }
-
 .nav-3 {
     font-size: 1.25rem;
 }
-
 #home {
     font-weight: 700;
     color: #FEA301;
 }
-
 .nav-others {
     font-weight: 500;
 }
-
 .btn-weight {
     font-weight: 600;
 }
-
 .btn {
     background-color: #FEA301;
     color: #FFFFFF;
@@ -104,31 +92,23 @@ a {
     font-size: 1.25rem;
     font-weight: 600;
 }
-
 button {
     border: none;
 }
-
 .line {
     display: none;
 }
-
 .margin2 {
     display: none;
 }
-
-
 /* styles for banner section */
 .banner {
     margin: 20px 141px 60px 141px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 .btn-2 {
-
     background-color: #111111;
     color: #FFFFFF;
     padding: 10px auto;
@@ -138,48 +118,35 @@ button {
     height: 50px;
     font-size: 1.25rem;
     font-weight: 700;
-
 }
-
 .align {
     display: flex;
     justify-content: center;
-
 }
-
 .margin-bottom {
     margin-bottom: 24px;
 }
-
 .bot-margin {
     margin-bottom: 60px;
 }
-
 .banner-h1 {
     font-size: 3.5rem;
 }
-
 #orange-font {
     color: #FEA301;
 }
-
 #blue-font {
     color: #01ACFD;
 }
-
-
 /* styles for standard curriculum section */
 .bg-img {
     background-image: url('../assets/bg.png');
-
 }
-
 .h1-standard-curriculum {
     text-align: center;
     font-size: 2.88rem;
     margin-bottom: 80px;
 }
-
 .h1-card {
     font-size: 1.5rem;
 }
@@ -187,69 +154,53 @@ button {
 .align-center {
     text-align: center;
 }
-
 .cards {
     display: flex;
     justify-content: space-between;
     gap: 28.29px;
     margin: 0 auto;
-
 }
-
 .card {
     text-align: center;
     padding: 52px 59px;
     border-radius: 18.86px;
 }
-
 .card-1 {
     border: 1px solid rgba(222, 245, 255, 1);
     background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1), #FFFFFF);
-
 }
-
 .read-more-1 {
     color: rgba(100, 200, 255, 1);
 }
-
 .card-2 {
     border: 1px solid rgba(255, 244, 220, 1);
     background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1), #FFFFFF);
 }
-
 .read-more-2 {
     color: rgba(240, 170, 0, 1);
 }
-
-
 .card-3 {
     border: 1px solid rgba(242, 232, 255, 1);
     background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1), #FFFFFF);
 }
-
 .read-more-3 {
     color: rgba(135, 0, 255, 1);
 }
-
 .bottom-margin {
     margin-bottom: 32px;
 }
-
 .arrow-both {
     width: 60px;
     height: 60px;
     background-color: #FEA301;
     border-radius: 30px;
     text-align: center;
-
 }
-
 .arrow {
     font-size: 3rem;
     color: #FFFFFF;
     background-color: transparent;
 }
-
 .arrow-display {
     display: flex;
     gap: 10px;
@@ -257,72 +208,54 @@ button {
     margin-top: 60px;
     margin-bottom: 120px;
 }
-
 .arrow-hover:hover {
     background-color: #01ACFD;
 }
-
 /* styles for our stories section */
 .bott-margin {
     margin: 0;
 }
-
 .bot-mar {
     padding-bottom: 80px;
 }
-
 .bg-gradiant {
-
     background-image: url('../assets/bg.png'), linear-gradient(to bottom, #FFFFFF, rgba(255, 223, 167, 1));
 }
-
 .padding {
     padding: 0 140px;
 }
-
 .padding-h1 {
     padding: 0 38px;
 }
-
 .h1-story {
     margin-top: 60px;
     margin-bottom: 80px;
     font-size: 2.88rem;
     text-align: center;
-
 }
-
 .pic {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
-
 .card-story-small>img {
     width: 100%;
 }
-
 .card-story-big>img {
     width: 100%;
 }
-
 .pic1>img {
     width: 100%;
 }
-
 .pic1 {
     grid-area: pic1;
-
     width: 800px;
 }
-
 .text-box {
     margin-top: -55px;
     padding: 60px 15px 15px 15px;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
-
 }
-
 .p-font {
     margin-top: 48px;
     margin-bottom: 15px;
@@ -330,42 +263,31 @@ button {
     padding-left: 38px;
     padding-right: 68px;
     line-height: 40px;
-
 }
-
 .pic2 {
     grid-area: pic2;
 }
-
 .bg-btn-2 {
     background-color: darkorange;
 }
-
 .bg-btn-3 {
     background-color: cadetblue;
 }
-
 .bg-btn-4 {
     background-color: rgba(149, 178, 38, 1);
 }
-
 .bg-btn-5 {
     background-color: rgba(164, 74, 160, 1);
 }
-
-
 .pic3 {
     grid-area: pic3;
 }
-
 .pic4 {
     grid-area: pic4;
 }
-
 .pic5 {
     grid-area: pic5;
 }
-
 .pic-container {
     display: grid;
     grid-template-areas:
@@ -375,134 +297,102 @@ button {
     justify-content: space-between;
     gap: 20px;
 }
-
 .btn-story-card-big {
     width: 174px;
     height: 48px;
-
     padding: 10px 20px;
     color: #FFFFFF;
     border-radius: 48px;
-
     position: relative;
     left: 45px;
     bottom: 27px;
     background-color: rgba(60, 216, 232, 1);
-
 }
-
 .btn-story-card-small {
     width: 174px;
     height: 38px;
-
     padding: 10px 20px;
     color: #FFFFFF;
     border-radius: 48px;
-
     position: relative;
     left: 45px;
     bottom: 27px;
-
 }
-
 .h1-small-card {
     font-size: 1.5rem;
     padding: 10px;
     font-size: 1rem;
 }
-
-
-
-
 /* styles for footer section */
 .footer {
-
     background-color: rgba(1, 172, 253, 1);
     display: flex;
     gap: 170px;
     justify-content: space-between;
     padding: 98px 140px 200px 140px;
-
 }
-
 .bg-color {
     background-color: #FFFFFF;
 }
-
 .color {
     color: #FFFFFF;
 }
-
 .link {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .dis-flex {
     display: flex;
     gap: 10px;
     margin-bottom: 35px;
 }
-
 .text-color {
     color: #FFFFFF;
 }
-
 .about-school {
     font-size: 1.5rem;
     margin-bottom: 32px;
 }
-
 .mar-bot-2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
-
 .keep-in-touch {
     font-size: 1.63rem;
     margin-bottom: 32px;
 }
-
 .flex-icon {
     display: flex;
     gap: 10px;
 }
-
 .para {
     font-size: 1.25rem;
 }
-
-
-
-
 /* responsiveness for small screen by media query */
 @media screen and (max-width:576px) {
-
     /* navbar section*/
     .hide {
         display: none;
     }
-
+.hamburger{
+    display: inline;
+}
     .line {
         display: block;
         margin-top: 12px;
     }
-
     hr {
         border-color: #FEA301;
         margin-top: -12px;
     }
-
     .hamburger {
-        display: block;
+        /* display: block; */
         width: 30px;
     }
-
     .nav-1 {
         display: none;
     }
-
     .margin2 {
         margin-top: 12px;
         margin-right: 10px;
@@ -512,9 +402,6 @@ button {
         justify-content: space-between;
         align-items: center;
     }
-
-
-
     /* banner section */
     .banner {
         flex-direction: column-reverse;
@@ -523,54 +410,42 @@ button {
         gap: 20px;
         width: 100%;
         margin: 0 auto;
-
     }
-
     .banner-img {
         width: 100%;
         margin: 0 auto;
         padding: 10px;
     }
-
     .font {
         font-size: 2rem;
     }
-
     .font-2 {
         width: 100%;
         font-size: 0.89rem;
         font-weight: 500;
-
     }
-
     .banner-h1 {
         width: 100%;
         text-align: center;
     }
-
     .btn-2 {
         margin-bottom: 60px;
     }
-
-
     /* standard curriculum section */
     .margin {
         margin: 0 auto;
         padding: 10px;
     }
-
     .standard-small-screen {
         width: 100%;
         text-align: center;
         margin: 0 auto;
     }
-
     .h1-standard-curriculum {
         font-size: 1.5rem;
         text-align: center;
         margin-bottom: 20px;
     }
-
     .cards {
         display: flex;
         flex-direction: column;
@@ -578,7 +453,6 @@ button {
         width: 100%;
         gap: 10px;
     }
-
     .card {
         width: 100%;
         max-width: 100%;
@@ -586,88 +460,67 @@ button {
         box-sizing: border-box;
         text-align: center;
     }
-
     .card img {
         width: 30%;
         height: auto;
     }
-
     .card>p {
         width: 100%;
         text-align: center;
         font-size: 0.9rem;
         color: rgba(128, 128, 128, 1);
     }
-
     .card>h1 {
         font-size: 1.2rem;
         margin-bottom: 10px;
     }
-
     .arrow-display {
         display: none;
     }
-
     .bottom-margin {
         margin-bottom: 20px;
     }
-
-
     /* styles for our stories section */
     .pic1 {
         display: none;
-
     }
-
-
     .h1-story {
         font-size: 1.66rem;
         margin-bottom: 40px;
     }
-
     .pic-container {
         margin: 0 auto;
         justify-content: center;
         gap: 35px;
         margin-right: 35px;
     }
-
     .btn-story-card-small {
         width: 103px;
         height: 32px;
-
         padding: 0;
         color: #FFFFFF;
         border-radius: 48px;
         font-size: .63rem;
-
         position: relative;
         left: 20px;
         bottom: 20px;
     }
-
     .card-story-small {
         width: 173px;
         height: 179px;
         margin-bottom: 30px;
-
     }
-
     .text-box {
         height: 120px;
         font-size: .5rem;
     }
-
     .h1-small-card {
         margin-top: -32px;
     }
-
     .card {
         width: 200%;
     }
-
     .btn-2 {
-
         background-color: #111111;
         color: #FFFFFF;
         padding: 10px auto;
@@ -678,36 +531,26 @@ button {
         font-size: 1rem;
         font-weight: 700;
         margin-top: -40px;
-
     }
-
-
     /* footer section */
     .footer {
         flex-direction: column;
         gap: 50px;
         padding: 60px 30px;
     }
-
     .font-f {
         font-size: 2.1rem;
     }
-
     .para {
         font-size: 1rem;
     }
-
     .font-sc {
         font-size: 1.5rem;
     }
-
     .mar-bot-2 {
         margin-bottom: 17px;
     }
-
     .font_l {
         font-size: 1.36rem;
     }
-
-
 }
